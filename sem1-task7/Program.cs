@@ -6,5 +6,5 @@
 */
 Console.WriteLine("Введите трехзначное число: ");
 int userNumb1 = Convert.ToInt32(Console.ReadLine());
-int userNumb2 = userNumb1%10;
+int userNumb2 = userNumb1/100;
 Console.WriteLine(userNumb2);
